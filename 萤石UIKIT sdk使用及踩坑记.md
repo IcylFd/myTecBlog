@@ -60,6 +60,7 @@ playVideo(vi, index) {
 ![error](https://user-images.githubusercontent.com/38416128/79680000-5b9f3d80-823d-11ea-9870-884fac95f1d8.png)
 这是skd本身的容错bug
     调用视频的paly方法：play({}, {})
+
 ✨全屏方法：
     （这是文档的bug，文档写的极其不详细，想用啥方法可以去源码搜一下）
 
