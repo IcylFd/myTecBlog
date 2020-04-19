@@ -9,7 +9,7 @@
 ##### 这里可以使用CDN的方式，在index.html中全局引入
 ##### dom结构
 需求是页面中有许多视频，于是根据接口返回的视频列表，动态渲染了视频容器
-![截屏2020-04-15下午9.11.34.png](/img/bVbF5MZ)
+![https://user-images.githubusercontent.com/38416128/79679979-39a5bb00-823d-11ea-94ab-f06871ffeed6.png](/img/bVbF5MZ)
     监控模式没有找到封面图的方法，所以手动写一个，根据视频播放状态判断是否显示
 ##### 视频播放方法
 ````
@@ -57,7 +57,7 @@ playVideo(vi, index) {
     
 
 ✨视频正常播放，控制台却有报错 TypeError: Cannot read property ‘audioId’ of undefined
-![截屏2020-04-15下午9.33.38.png](/img/bVbF5Ny)
+![https://user-images.githubusercontent.com/38416128/79680000-5b9f3d80-823d-11ea-9870-884fac95f1d8.png](/img/bVbF5Ny)
 这是skd本身的容错bug
     调用视频的paly方法：play({}, {})
 ✨全屏方法：
